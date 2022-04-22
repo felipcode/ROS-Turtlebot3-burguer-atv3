@@ -1,0 +1,8 @@
+prefix=/home/lip/robotics/ROS/atividades/atividades_22_04/atv3_ws/devel
+
+Name: speech_cmd
+Description: Description of speech_cmd
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

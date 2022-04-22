@@ -1,0 +1,8 @@
+prefix=/home/lip/robotics/ROS/atividades/atividades_22_04/atv3_ws/install
+
+Name: speech_control
+Description: Description of speech_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
