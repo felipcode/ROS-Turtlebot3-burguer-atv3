@@ -26,8 +26,12 @@ class voiceCMD:
             self.data_cmd_.angular.z = 0.1
             pass
         elif "back" in command2.lower():
+            self.data_cmd_.linear.x = -0.1
+            self.data_cmd_.angular.z = 0.0  
             pass
-        elif "die" in command2.lower():
+        elif "stop" in command2.lower():
+            self.data_cmd_.linear.x = 0.0
+            self.data_cmd_.angular.z = 0.0  
             pass
         elif "kill" in command2.lower():
             pass
